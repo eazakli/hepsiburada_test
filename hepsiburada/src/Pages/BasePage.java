@@ -21,8 +21,8 @@ public abstract class BasePage {
 	protected static WebDriver driver;
 	
 	//Page Variables
-	public String chromedriverPath = "tools/chromedriver/chromedriver.exe";
-	public String firefoxdriverPath = "tools/geckodriver/geckodriver.exe";
+	public String chromedriverPath = "Tools/chromedriver/chromedriver.exe";
+	public String firefoxdriverPath = "Tools/geckodriver/geckodriver.exe";
 	public static String productname;
 	public static String ordernumber;
 	String browser = System.getenv("CURRENTBROWSER");
